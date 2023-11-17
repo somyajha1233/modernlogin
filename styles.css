@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Montserrat,sans-serif;
     background-color: chocolate;
     margin: 0; /* Remove default body margin */
 }
@@ -27,6 +27,7 @@ body {
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box; /* Include padding and border in the width */
+    box-shadow: 1px solid black;
 }
 
 #wlc {
@@ -41,21 +42,23 @@ body {
     flex-direction: column;
     border-radius: 2px;
     width: 100%;
-    max-width: 400px; /* Set a maximum width */
+    max-width: 400px; 
     height: 40px;
     margin: 10px auto; /* Center the input horizontally */
+    color: purple;
 }
 
 #brn {
-    height: 33px;
+    height: 50px;
     width: 100%;
-    max-width: 83px; /* Set a maximum width */
+    max-width: 393px; /* Set a maximum width */
     border: 2px;
     border-radius: 44px;
     background-color: purple;
     color: white;
     margin: 10px auto; /* Center the button horizontally */
     cursor: pointer;
+    font-size: 20px;
 }
 
 #fgt,
@@ -93,4 +96,7 @@ body {
 }
 #md{
     color: white;
+}
+#ok{
+    background-color: purple;
 }
