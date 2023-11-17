@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap');
 
 body {
-    font-family: 'Poppins', Montserrat,sans-serif;
-    background-color: chocolate;
-    margin: 0; /* Remove default body margin */
+    font-family: 'Poppins', Montserrat, sans-serif;
+    margin: 0;
+    background-image: url("igor-omilaev-6-Y_Hxoh7VU-unsplash.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    margin: 0;
+    /* Remove default body margin */
+    backdrop-filter: blur(2px);
 }
 
 #logo {
@@ -23,11 +28,12 @@ body {
     max-width: 425px; /* Set a maximum width */
     margin: 20px auto;
     color: #000;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1); /* Set opacity to 1 */
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box; /* Include padding and border in the width */
     box-shadow: 1px solid black;
+    opacity: 1;
 }
 
 #wlc {
@@ -42,7 +48,7 @@ body {
     flex-direction: column;
     border-radius: 2px;
     width: 100%;
-    max-width: 400px; 
+    max-width: 400px;
     height: 40px;
     margin: 10px auto; /* Center the input horizontally */
     color: purple;
@@ -77,11 +83,13 @@ body {
 #brn:hover {
     background-color: rgb(70, 3, 70);
 }
+
 .plc:focus {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
     color: purple; /* Increase border thickness when focused */
 }
+
 #fgt:hover,
 #rgt:hover {
     color: rgb(92, 2, 92);
@@ -94,9 +102,11 @@ body {
         max-width: none; /* Remove the maximum width for smaller screens */
     }
 }
-#md{
+
+#md {
     color: white;
 }
-#ok{
+
+#ok {
     background-color: purple;
 }

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', Montserrat, sans-serif;
+    margin: 0;
+    background-image: url("igor-omilaev-6-Y_Hxoh7VU-unsplash.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    margin: 0;
+    /* Remove default body margin */
+    backdrop-filter: blur(2px);
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    margin: 20px auto; /* Center the logo horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 90%;
+    max-width: 425px; /* Set a maximum width */
+    margin: 20px auto;
+    color: #000;
+    background-color: rgba(255, 255, 255, 1); /* Set opacity to 1 */
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+    box-shadow: 1px solid black;
+    opacity: 1;
+}
+
+#wlc {
+    color: purple;
+    font-size: 30px;
+    text-align: center; /* Center text */
+}
+
+.plc {
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    margin: 10px auto; /* Center the input horizontally */
+    color: purple;
+}
+
+#brn {
+    height: 50px;
+    width: 100%;
+    max-width: 393px; /* Set a maximum width */
+    border: 2px;
+    border-radius: 44px;
+    background-color: purple;
+    color: white;
+    margin: 10px auto; /* Center the button horizontally */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#rgt {
+    font-size: 17px;
+    cursor: pointer;
+    color: gray;
+    text-align: center; /* Center text */
+}
+
+a {
+    margin-top: 10px; 
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: gray;
+    text-align: center; /* Add space between "Forgot password?" and "Register" */
+}
+
+/* Hover Styles */
+#brn:hover {
+    background-color: rgb(70, 3, 70);
+}
+
+.plc:focus {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    color: purple; /* Increase border thickness when focused */
+}
+
+a:hover {
+    color: rgb(92, 2, 92);
+
+}
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    #box {
+        width: 90%;
+        max-width: none; /* Remove the maximum width for smaller screens */
+    }
+}
+
+#md {
+    color: white;
+}
+
+#ok {
+    background-color: purple;
+}
