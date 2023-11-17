@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: chocolate;
+    margin: 0; /* Remove default body margin */
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    margin: 20px auto; /* Center the logo horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 90%;
+    max-width: 425px; /* Set a maximum width */
+    margin: 20px auto;
+    color: #000;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+#wlc {
+    color: purple;
+    font-size: 30px;
+    text-align: center; /* Center text */
+}
+
+.plc {
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 400px; /* Set a maximum width */
+    height: 40px;
+    margin: 10px auto; /* Center the input horizontally */
+}
+
+#brn {
+    height: 33px;
+    width: 100%;
+    max-width: 83px; /* Set a maximum width */
+    border: 2px;
+    border-radius: 44px;
+    background-color: purple;
+    color: white;
+    margin: 10px auto; /* Center the button horizontally */
+    cursor: pointer;
+}
+
+#fgt,
+#rgt {
+    font-size: 17px;
+    cursor: pointer;
+    color: gray;
+    text-align: center; /* Center text */
+}
+
+#rgt {
+    margin-top: 10px; /* Add space between "Forgot password?" and "Register" */
+}
+
+/* Hover Styles */
+#brn:hover {
+    background-color: rgb(70, 3, 70);
+}
+.plc:focus {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    color: purple; /* Increase border thickness when focused */
+}
+#fgt:hover,
+#rgt:hover {
+    color: rgb(92, 2, 92);
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    #box {
+        width: 90%;
+        max-width: none; /* Remove the maximum width for smaller screens */
+    }
+}
+#md{
+    color: white;
+}
