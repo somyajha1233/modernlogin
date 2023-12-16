@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Righteous&display=swap');
 body {
-    font-family: 'Poppins', Montserrat, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', sans-serif;
     margin: 0;
     background-image: url("igor-omilaev-6-Y_Hxoh7VU-unsplash.jpg");
     background-size: cover;
-    opacity: 0.9;
+    background-position: center;
+    opacity: 1;
     margin: 0;
     /* Remove default body margin */
     backdrop-filter: blur(2px);
@@ -28,12 +29,11 @@ body {
     max-width: 425px; /* Set a maximum width */
     margin: 20px auto;
     color: #000;
-    background-color: rgba(255, 255, 255, 1); /* Set opacity to 1 */
+    background-color: rgb(255, 255, 255); /* Set opacity to 1 */
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box; /* Include padding and border in the width */
     box-shadow: 1px solid black;
-    opacity: 1;
 }
 
 #wlc {
